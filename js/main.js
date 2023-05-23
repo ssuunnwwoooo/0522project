@@ -1,5 +1,5 @@
 $(function () {
-    $('.mainSlide').slick({
+    $('.main_slide').slick({
         // arrows: ture,
         dots: true,
         autoplay: true,
