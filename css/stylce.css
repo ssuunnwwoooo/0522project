@@ -1,253 +1,350 @@
- #header {
-     position: fixed;
-     top: 0;
-     left: 0;
-     right: 0;
-     z-index: 999;
- }
-
- .inner {
-     max-width: 1200px;
-     margin: 0 auto;
-     padding: 0 15px;
- }
-
- .inner img {
-     width: 80%;
- }
-
- .header {
-     height: 70px;
-     background: #111;
-     color: #fff;
- }
-
- .header .inner {
-     display: flex;
-     align-items: center;
-     height: 70px;
- }
-
- .header .gnb>ul {
-     display: flex;
-     gap: 60px;
- }
-
- .header .gnb>ul>li {
-     position: relative;
-     display: block;
-     font-size: 15px;
-     color: #bbb;
- }
-
- /* ↓ 아이콘 ↓ */
-
- #header .service {
-     display: flex;
-     margin: 0 0 0 auto;
-     font-size: 18px;
- }
-
- .header .search {
-     margin: 0 0 0 20px;
- }
-
- .header .search i {
-     font-size: 30px;
- }
-
- .header .profile {
-     margin: 0 0 0 20px;
- }
-
- .header .profile i {
-     font-size: 30px;
- }
-
- .header .align-justify {
-     margin: 0 0 0 20px;
- }
-
- .header .align-justify i {
-     font-size: 30px;
- }
-
- /* ↑ 아이콘 ↑ */
-
-
- /* ↓ 메인화면 사진 ↓ */
- .main_visual {
-     position: relative;
- }
-
- .main_visual .main_slide {}
-
- .main_visual .main_slide figure {
-     position: relative;
-     height: 954px;
- }
-
- .main_visual .main_slide .itm01 {
-     background: url(../images/main_01.jpg)no-repeat center center/cover;
- }
-
- .main_visual .main_slide .itm02 {
-     background: url(../images/main_02.jpg)no-repeat center center/cover;
- }
-
- .main_visual .main_slide .itm03 {
-     background: url(../images/main_03.jpg)no-repeat center center/cover;
- }
-
- .main_visual .main_slide .itm04 {
-     background: url(../images/main_04.jpg)no-repeat center center/cover;
- }
-
- .main_visual .main_slide .itm05 {
-     background: url(../images/main_05.jpg)no-repeat center center/cover;
- }
-
- .main_visual .main_slide .itm06 {
-     background: url(../images/main_06.jpg)no-repeat center center/cover;
- }
-
- .main_visual .main_slide .itm07 {
-     background: url(../images/main_07.jpg)no-repeat center center/cover;
- }
-
- .main_visual .main_slide .itm08 {
-     background: url(../images/main_08.jpg)no-repeat center center/cover;
- }
-
- .main_visual .main_slide .itm09 {
-     background: url(../images/main_09.jpg)no-repeat center center/cover;
- }
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.inner img {
+    width: 80%;
+}
+
+.header {
+    height: 70px;
+    background: #111;
+    color: #fff;
+}
+
+.header .inner {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.header .gnb>ul {
+    display: flex;
+    gap: 60px;
+}
+
+.header .gnb>ul>li {
+    position: relative;
+    display: block;
+    font-size: 15px;
+    color: #bbb;
+}
+
+/* ↓ 아이콘 ↓ */
+
+#header .service {
+    display: flex;
+    margin: 0 0 0 auto;
+    font-size: 18px;
+}
+
+.header .search {
+    margin: 0 0 0 20px;
+}
+
+.header .search i {
+    font-size: 30px;
+}
+
+.header .profile {
+    margin: 0 0 0 20px;
+}
+
+.header .profile i {
+    font-size: 30px;
+}
+
+.header .align-justify {
+    margin: 0 0 0 20px;
+}
+
+.header .align-justify i {
+    font-size: 30px;
+}
+
+/* ↑ 아이콘 ↑ */
 
- /* ↑ 메인화면 사진 ↑ */
 
+/* ↓ 메인화면 사진 ↓ */
+.main_visual {
+    position: relative;
+}
 
- /* ↓ 메인화면 글씨 ↓ */
+.main_visual .main_slide {}
 
- .main_visual .main_slide .slogan {
-     position: absolute;
-     top: 20%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     width: 1200px;
-     padding: 0 15px;
- }
+.main_visual .main_slide figure {
+    position: relative;
+    height: 954px;
+}
 
- .main_visual .main_slide .slogan span {
-     display: block;
-     font-size: 20px;
-     color: #fff;
- }
+.main_visual .main_slide .itm01 {
+    background: url(../images/main_01.jpg)no-repeat center center/cover;
+}
 
- .main_visual .main_slide .slogan strong {
-     display: block;
-     margin: 0 auto 15px auto;
-     font-size: 80px;
-     font-weight: 300;
-     color: #fff;
-     text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
- }
+.main_visual .main_slide .itm02 {
+    background: url(../images/main_02.jpg)no-repeat center center/cover;
+}
 
- .main_visual .main_slide .slogan p {
-     margin: 0 0 0 0;
-     font-size: 20px;
-     font-weight: 200;
-     color: #fff;
-     text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
- }
+.main_visual .main_slide .itm03 {
+    background: url(../images/main_03.jpg)no-repeat center center/cover;
+}
+
+.main_visual .main_slide .itm04 {
+    background: url(../images/main_04.jpg)no-repeat center center/cover;
+}
 
- .main_visual .main_slide .slogan a {
-     display: inline-block;
-     color: #fff;
- }
+.main_visual .main_slide .itm05 {
+    background: url(../images/main_05.jpg)no-repeat center center/cover;
+}
 
- .main_visual .main_slide .itm03 .slogan p {
-     font-size: 15px;
- }
+.main_visual .main_slide .itm06 {
+    background: url(../images/main_06.jpg)no-repeat center center/cover;
+}
 
- /* ↑ 메인화면 글씨 ↑ */
+.main_visual .main_slide .itm07 {
+    background: url(../images/main_07.jpg)no-repeat center center/cover;
+}
 
- .main_visual .slick-arrow {
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     z-index: 999;
+.main_visual .main_slide .itm08 {
+    background: url(../images/main_08.jpg)no-repeat center center/cover;
+}
 
-     background: transparent;
-     border: none;
-     outline: none;
+.main_visual .main_slide .itm09 {
+    background: url(../images/main_09.jpg)no-repeat center center/cover;
+}
 
-     font-size: 0;
-     width: 100px;
-     height: 100px;
- }
+/* ↑ 메인화면 사진 ↑ */
 
 
+/* ↓ 메인화면 글씨 ↓ */
 
+.main_visual .main_slide .slogan {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    padding: 0 15px;
+    color: #fff;
 
- .main_visual .slick-dots {
-     position: absolute;
-     bottom: 150px;
-     left: 50%;
-     transform: translate(-50%, 0);
- }
+}
 
- .main_visual .slick-dots>* {
-     display: inline-block;
-     margin: 0 10px;
- }
+.main_visual .main_slide .slogan span {
+    display: block;
+    font-size: 20px;
 
- .main_visual .slick-dots button {
-     background: rgba(189, 189, 189, 0.849);
-     color: rgba(0, 0, 0, 0);
-     border-radius: 50%;
-     padding: 5px;
-     font-size: 10px;
-     width: 10px;
-     height: 10px;
-     border: none;
-     outline: none;
- }
+}
 
- .main_visual .slick-dots li.slick-active button {
-     background: rgb(255, 255, 255);
- }
+.main_visual .main_slide .slogan strong {
+    display: block;
+    margin: 0 auto 15px auto;
+    font-size: 80px;
+    font-weight: 300;
 
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 
+}
 
+.main_visual .main_slide .slogan p {
+    margin: 0 0 0 0;
+    font-size: 20px;
+    font-weight: 200;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
 
+.main_visual .main_slide .slogan a {
+    border: 3px solid #333;
+    /* 하단으로 내리고싶음 */
+}
 
 
+.main_visual .main_slide .itm03 .slogan p {
+    font-size: 15px;
 
+}
 
+/* ↑ 메인화면 글씨 ↑ */
 
+/* ↓ 버튼 ↓ */
 
+.main_visual .slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
 
+    background: transparent;
+    border: none;
+    outline: none;
 
+    font-size: 0;
+    width: 100px;
+    height: 100px;
+}
 
+.main_visual .slick-dots {
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
 
+.main_visual .slick-dots>* {
+    display: inline-block;
+    margin: 0 10px;
+}
 
+.main_visual .slick-dots button {
+    background: rgba(189, 189, 189, 0.849);
+    color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 10px;
+    width: 10px;
+    height: 10px;
+    border: none;
+    outline: none;
+}
 
+.main_visual .slick-dots li.slick-active button {
+    background: rgb(255, 255, 255);
+}
 
+/* ↑ 버튼 ↑ */
 
 
+/* ↓ OUR MODELS ↓ */
+#product {
+    position: relative;
+    background: #111;
+    color: #fff;
+}
 
 
- .footer {
-     background: #333;
-     color: #fff;
-     text-align: center;
- }
 
- .footer .top {
-     line-height: 80px;
-     border-bottom: 1px solid #555;
- }
+.sec {
+    padding: 150px 0;
+}
 
- .footer address {
-     line-height: 80px;
- }
+
+
+.sec .tit {
+    margin: 0 auto 100px auto;
+}
+
+
+.sec .tit h2 {
+    margin: 0 0 10px 0;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.sec .tit p {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+#product .arrows {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1400px;
+    width: 100%;
+}
+
+
+
+.product_slide {
+
+    border: 2px solid #fff;
+}
+
+.product_slide figure {
+    width: 100%;
+    padding: 30px 30px;
+    border: 2px solid #fff;
+}
+
+
+.product_slide .slick-dots {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+
+.product_slide .slick-dots li {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.product_slide .slick-dots li button {
+    color: #ffffff00;
+    background: rgb(85, 85, 85);
+    border: none;
+    outline: none;
+    padding: 0px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    padding: 4px 4px;
+    margin: 0 4px
+}
+
+
+.product_slide .slick-dots li.slick-active button {
+    background: rgb(85, 85, 85);
+    border: none;
+    border: 2px solid #fff;
+}
+
+/* ↑ OUR MODELS ↑ */
+
+.icon_link {
+    background: #111;
+    color: #fff;
+    height: 600px
+}
+
+.icon_inner ul {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 125px 0 125px 0;
+}
+
+.icon_inner ul p {
+    text-align: center;
+}
+
+/* 구매상담신청 글자 중앙배열해야함 */
+
+
+
+
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.footer .top {
+    line-height: 80px;
+    border-bottom: 1px solid #555;
+}
+
+.footer address {
+    line-height: 80px;
+}
