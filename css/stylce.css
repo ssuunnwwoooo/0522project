@@ -267,7 +267,6 @@
 
 
 .product_slide {
-
     border: 2px solid #fff;
 }
 
@@ -330,6 +329,153 @@
 
 /* 구매상담신청 글자 중앙배열해야함 */
 
+.full_wrapper {
+    position: relative;
+}
+
+.full_dots {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    max-width: 1200px;
+
+    font-size: 15px;
+
+    padding: 17px 0 17px 0;
+    display: flex;
+    border-top: 1px solid #808080;
+}
+
+.full_dots li {
+    position: relative;
+    flex: 1;
+    color: #808080;
+}
+
+.full_dots li::after {
+    content: "";
+    position: absolute;
+    top: -18px;
+    left: 0px;
+    width: 0;
+    height: 1px;
+
+    background: #fff;
+}
+
+.full_dots li.on::after {
+    width: 100%;
+    transition: 2s;
+}
+
+.full_dots li.on {
+    color: #fff;
+}
+
+.full_wrapper .full_slide figure {
+    position: relative;
+    height: 1000px;
+}
+
+.full_wrapper .full_slide .full_01 {
+    background: url(../images/full01.png)no-repeat center center/cover;
+}
+
+.full_wrapper .full_slide .full_02 {
+    background: url(../images/full02.jpg)no-repeat center center/cover;
+}
+
+.full_wrapper .full_slide .full_03 {
+    background: url(../images/full03.jpg)no-repeat center center/cover;
+}
+
+.full_wrapper .full_slide .full_04 {
+    background: url(../images/full04.jpg)no-repeat center center/cover;
+}
+
+.full_wrapper .full_slide .full_05 {
+    background: url(../images/full05.jpg)no-repeat center center/cover;
+}
+
+.full_wrapper .full_slide .full_06 {
+    background: url(../images/full06.jpg)no-repeat center center/cover;
+}
+
+/* ↑ 사진 ↑ */
+
+
+.full_wrapper .full_slide .slogan {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    padding: 0 15px;
+    color: #fff;
+
+}
+
+
+.full_wrapper .full_slide .slogan strong {
+    display: block;
+    margin: 0 auto 15px auto;
+    font-size: 80px;
+    font-weight: 300;
+
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.full_wrapper .full_slide .slogan p {
+    margin: 0 0 0 0;
+    font-size: 20px;
+    font-weight: 200;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+/* ↑ 글 자 ↑ */
+
+
+.full_wrapper .slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+
+    background: transparent;
+    border: none;
+    outline: none;
+
+    font-size: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.full_wrapper .slick-dots {
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.full_wrapper .slick-dots>* {
+    display: inline-block;
+    justify-content: center;
+    margin: 0 30px;
+    width: 1200px;
+    height: 1000px;
+    font-size: 13px;
+}
+
+
+
+/* ↑ 버튼 ↑  */
+
+
+.cp_carousel .cp_inner .box {
+    position: relative;
+}
 
 
 
