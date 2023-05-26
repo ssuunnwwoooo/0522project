@@ -23,7 +23,7 @@ $(function () {
 
 
     $('.full_slide').slick({
-        //dots: true,
+        autoplay: true,
         // dots: true,
         // customPaging: function (slider, i) {
         //     var thumb = $(slider.$slides[i]).data();

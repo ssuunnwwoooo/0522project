@@ -163,7 +163,6 @@
 }
 
 .main_visual .main_slide .slogan a {
-    border: 3px solid #333;
     /* 하단으로 내리고싶음 */
 }
 
@@ -217,13 +216,16 @@
 }
 
 .main_visual .slick-dots li.slick-active button {
-    background: rgb(255, 255, 255);
+    background: rgb(85, 85, 85);
+    border: none;
+    border: 2px solid #fff;
 }
 
 /* ↑ 버튼 ↑ */
 
 
 /* ↓ OUR MODELS ↓ */
+
 #product {
     position: relative;
     background: #111;
@@ -255,6 +257,7 @@
 }
 
 
+
 #product .arrows {
     position: absolute;
     top: 50%;
@@ -265,17 +268,25 @@
 }
 
 
-
-.product_slide {
-    border: 2px solid #fff;
-}
+.product_slide {}
 
 .product_slide figure {
     width: 100%;
+    margin: 0 15px 0 15px;
     padding: 30px 30px;
-    border: 2px solid #fff;
+    background: #333;
 }
 
+
+.product_slide figure h3 {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.product_slide figure p {
+    font-size: 15px;
+    font-weight: 100;
+}
 
 .product_slide .slick-dots {
     text-align: center;
@@ -329,13 +340,22 @@
 
 /* 구매상담신청 글자 중앙배열해야함 */
 
+.full_title {
+    background: #111;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    padding: 150px 0 30px 340px;
+}
+
+
 .full_wrapper {
     position: relative;
 }
 
 .full_dots {
     position: absolute;
-    bottom: 10%;
+    bottom: 0;
     left: 50%;
     transform: translate(-50%, 0);
     max-width: 1200px;
@@ -407,8 +427,9 @@
 
 .full_wrapper .full_slide .slogan {
     position: absolute;
-    top: 20%;
+    top: 80%;
     left: 50%;
+    word-break: keep-all;
     transform: translate(-50%, -50%);
     width: 1200px;
     padding: 0 15px;
@@ -420,16 +441,17 @@
 .full_wrapper .full_slide .slogan strong {
     display: block;
     margin: 0 auto 15px auto;
-    font-size: 80px;
+    font-size: 30px;
     font-weight: 300;
-
+    line-height: 150%;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 
 }
 
 .full_wrapper .full_slide .slogan p {
     margin: 0 0 0 0;
-    font-size: 20px;
+    line-height: 150%;
+    font-size: 15px;
     font-weight: 200;
     text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
@@ -452,39 +474,97 @@
     height: 100px;
 }
 
-.full_wrapper .slick-dots {
-    position: absolute;
-    bottom: 150px;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
-
-.full_wrapper .slick-dots>* {
-    display: inline-block;
-    justify-content: center;
-    margin: 0 30px;
-    width: 1200px;
-    height: 1000px;
-    font-size: 13px;
-}
-
-
 
 /* ↑ 버튼 ↑  */
 
 
-.cp_carousel .cp_inner .box {
+.content {
+    background: #111;
+}
+
+.content .box {
+    width: 800px;
+}
+
+.content .con {
+    display: flex;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.content .con figure {
     position: relative;
+    flex: 1;
+    overflow: hidden;
+}
+
+
+.content figure .cover {
+    position: absolute;
+    inset: 0 auto auto 100%;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.479);
+    color: #fff;
+    padding: 50px 30px;
+    transition: 0.5s;
+}
+
+
+.content .cover h3 {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.content .cover p {
+    word-break: keep-all;
+    line-height: 150%;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.content .cover a {
+    padding: 5px 10px;
+    margin: auto 0 0 0;
+    align-self: flex-start;
+    border-bottom: 1px solid #fff;
+}
+
+.content .cover a:hover {
+
+    border-bottom: none;
+}
+
+.content figure:hover .cover {
+    inset: 0 auto auto 0;
+
 }
 
 
 
 
 .footer {
-    background: #333;
-    color: #fff;
+    background: #222;
     text-align: center;
 }
+
+.footer .inner>ul {
+    display: flex;
+    gap: 30px;
+
+}
+
+.footer .inner>ul>li {
+    font-size: 15px;
+    color: #bbb;
+}
+
 
 .footer .top {
     line-height: 80px;
@@ -493,4 +573,5 @@
 
 .footer address {
     line-height: 80px;
+    color: #808080;
 }
